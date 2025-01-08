@@ -1,4 +1,4 @@
-package com.errabi.inventory.config;
+package com.errabi.inventory.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

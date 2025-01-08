@@ -10,8 +10,15 @@ spring:
 
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        connection:
+          autocommit: false
+        format_sql: true
+        #generate_statistics: true
 
   h2:
     console:
